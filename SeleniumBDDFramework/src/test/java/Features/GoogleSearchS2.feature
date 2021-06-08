@@ -2,7 +2,7 @@
 #Keywords Summary :
 #Feature: List of scenarios.
 #Scenario: Business rule through list of steps with arguments.
-@GoogleSearch1 @Smoke @Regression @Sanity
+@GoogleSearch2 @Regression @Sanity
 Feature: Google Search For OTT Platform with Scenario Only
 
   Scenario: Google Search For OTT Platform with Scenario Only

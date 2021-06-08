@@ -2,13 +2,17 @@
 #Keywords Summary :
 #Feature: List of scenarios.
 #Scenario: Business rule through list of steps with arguments.
-@GoogleSearch1 @Smoke @Regression @Sanity
-Feature: Google Search For OTT Platform with Scenario Only
+@GoogleSearch4 @Regression
+Feature: Google Search For OTT Platform with Scenario Outline
 
-  Scenario: Google Search For OTT Platform with Scenario Only
+  Scenario Outline: Google Search For OTT Platform with Scenario Outline
     Given the browser is open
     When google search is open on the browser
-    Then user enters "Amazon Prime Video"
+    Then user enters "<ottplatform>"
     Then user clicks on search button
     Then user is search result
     Then close the browser
+
+    Examples: 
+      | ottplatform  |
+      | Netflix      |

@@ -1,0 +1,427 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      }
+    ],
+    "line": 6,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Google Search For OTT Platform with Scenario Outline",
+        "description": "",
+        "id": "google-search-for-ott-platform-with-scenario-outline;google-search-for-ott-platform-with-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3178287100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the browser is open",
+            "match": {
+              "location": "LoginSteps.the_browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1979734300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "google search is open on the browser",
+            "match": {
+              "location": "LoginSteps.google_search_is_open_on_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232204600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"Netflix\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Netflix",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.user(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2609553500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184066100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is search result",
+            "match": {
+              "location": "LoginSteps.user_is_search_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4793657100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          },
+          {
+            "line": 5,
+            "name": "@GoogleSearch"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Google Search For OTT Platform with Scenario Outline",
+    "description": "",
+    "id": "google-search-for-ott-platform-with-scenario-outline",
+    "keyword": "Feature",
+    "uri": "GoogleSearchSO.feature",
+    "tags": [
+      {
+        "line": 5,
+        "name": "@GoogleSearch"
+      },
+      {
+        "line": 5,
+        "name": "@Smoke"
+      },
+      {
+        "line": 5,
+        "name": "@Regression"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      }
+    ],
+    "line": 6,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Google Search For OTT Platform with Scenario Outline",
+        "description": "",
+        "id": "google-search-for-ott-platform-with-scenario-outline;google-search-for-ott-platform-with-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1602488700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the browser is open",
+            "match": {
+              "location": "LoginSteps.the_browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1728516000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "google search is open on the browser",
+            "match": {
+              "location": "LoginSteps.google_search_is_open_on_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199480700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"Netflix\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Netflix",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.user(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2660811900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138526600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is search result",
+            "match": {
+              "location": "LoginSteps.user_is_search_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4752138100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@GoogleSearch4"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Google Search For OTT Platform with Scenario Outline",
+    "description": "",
+    "id": "google-search-for-ott-platform-with-scenario-outline",
+    "keyword": "Feature",
+    "uri": "GoogleSearchSO2.feature",
+    "tags": [
+      {
+        "line": 5,
+        "name": "@GoogleSearch4"
+      },
+      {
+        "line": 5,
+        "name": "@Regression"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      }
+    ],
+    "line": 6,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Google Search For OTT Platform with Scenario Outline",
+        "description": "",
+        "id": "google-search-for-ott-platform-with-scenario-outline;google-search-for-ott-platform-with-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1633529400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the browser is open",
+            "match": {
+              "location": "LoginSteps.the_browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1823241600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "google search is open on the browser",
+            "match": {
+              "location": "LoginSteps.google_search_is_open_on_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171461100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"Netflix\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Netflix",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.user(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2347629600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158025600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is search result",
+            "match": {
+              "location": "LoginSteps.user_is_search_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4799836600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@GoogleSearch5"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Google Search For OTT Platform with Scenario Outline",
+    "description": "",
+    "id": "google-search-for-ott-platform-with-scenario-outline",
+    "keyword": "Feature",
+    "uri": "GoogleSearchSO3.feature",
+    "tags": [
+      {
+        "line": 5,
+        "name": "@GoogleSearch5"
+      },
+      {
+        "line": 5,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
