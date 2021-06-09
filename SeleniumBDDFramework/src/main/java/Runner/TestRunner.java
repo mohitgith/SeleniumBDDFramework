@@ -14,9 +14,9 @@ import cucumber.api.testng.TestNGCucumberRunner;
 		glue = {"StepDefinitions"}, 
 		monochrome = true, 
 		plugin = {"pretty", "html:cucumberReport" ,
-                "json:cucumberReport/cucumber.json", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
-//		tags = {"@Smoke,@Regression","~@Sanity"}
-		)
+                "json:cucumberReport/cucumber.json", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+		tags = {"@Smoke,@Regression","~@Sanity"},
+dryRun = false)
 public class TestRunner {
 
 	private TestNGCucumberRunner testNGCucumberRunner;
