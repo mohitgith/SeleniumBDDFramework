@@ -1,46 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SeleniumBDDFramework" duration-ms="39699" started-at="2021-06-08T18:50:36Z" finished-at="2021-06-08T18:51:15Z">
+  <suite name="Suite" duration-ms="12047" started-at="2021-06-09T18:55:31Z" finished-at="2021-06-09T18:55:43Z">
     <groups>
       <group name="cucumber">
         <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@ef9296d]" name="feature" class="Runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="39699" started-at="2021-06-08T18:50:36Z" finished-at="2021-06-08T18:51:15Z">
+    <test name="Test" duration-ms="12047" started-at="2021-06-09T18:55:31Z" finished-at="2021-06-09T18:55:43Z">
       <class name="Runner.TestRunner">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Runner.TestRunner@ef9296d]" name="setUp" is-config="true" duration-ms="232" started-at="2021-06-08T18:50:36Z" finished-at="2021-06-08T18:50:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Runner.TestRunner@ef9296d]" name="setUp" is-config="true" duration-ms="299" started-at="2021-06-09T18:55:31Z" finished-at="2021-06-09T18:55:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@ef9296d]" name="feature" duration-ms="12426" started-at="2021-06-08T18:50:36Z" description="Run Cucumber Test" data-provider="features" finished-at="2021-06-08T18:50:48Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@ef9296d]" name="feature" duration-ms="11473" started-at="2021-06-09T18:55:32Z" description="Run Cucumber Test" data-provider="features" finished-at="2021-06-09T18:55:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Google Search For OTT Platform with Scenario Only]]>
+                <![CDATA[Automation Practice]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@ef9296d]" name="feature" duration-ms="26898" started-at="2021-06-08T18:50:48Z" description="Run Cucumber Test" data-provider="features" finished-at="2021-06-08T18:51:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Google Search For OTT Platform with Scenario Outline]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Runner.TestRunner@ef9296d]" name="tearDown" is-config="true" duration-ms="6" started-at="2021-06-08T18:51:15Z" finished-at="2021-06-08T18:51:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Runner.TestRunner@ef9296d]" name="tearDown" is-config="true" duration-ms="56" started-at="2021-06-09T18:55:43Z" finished-at="2021-06-09T18:55:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Runner.TestRunner -->
     </test> <!-- Test -->
-  </suite> <!-- SeleniumBDDFramework -->
+  </suite> <!-- Suite -->
 </testng-results>

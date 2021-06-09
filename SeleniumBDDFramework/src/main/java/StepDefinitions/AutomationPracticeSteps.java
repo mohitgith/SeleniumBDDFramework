@@ -25,7 +25,7 @@ public class AutomationPracticeSteps {
 	public void user_is_on_automation_practice_page() throws Throwable {
 		driver = Driver.setBrowser();
 		System.out.println("Launching Browser...");
-		driver.manage().window().maximize();
+//		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		System.out.println("Opening the url");	    

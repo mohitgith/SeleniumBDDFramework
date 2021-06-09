@@ -10,5 +10,5 @@ Feature: Automation Practice
     #And user clicks on the "radiobutton1"
     #Then user select the "option3" from the dropdown
     #When user clicks on Switch Window Button
-    And user clicks on Switch Tab Button
+    #And user clicks on Switch Tab Button
     And user clicks on Switch Alert Button

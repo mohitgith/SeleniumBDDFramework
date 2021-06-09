@@ -10,7 +10,7 @@ import java.util.Properties;
 
 public class CommonProperties {
 	private static Properties  prop = new Properties();
-	static String filePath = "./src/main/java/config/";
+	static String filePath = "./src/test/resources/config/";
 	static String propVal;
 
 //	public static void main(String[] args) {
